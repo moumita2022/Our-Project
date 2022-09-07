@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 
 
-function App() {
+export default function App() {
     return (
         <div className="App">
             {/* <h1>The Foodie Express</h1> */}
@@ -16,4 +16,4 @@ function App() {
     );
 }
 
-export default App;
+	
